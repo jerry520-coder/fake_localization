@@ -92,7 +92,7 @@ def main():
             pose.pose.orientation.z = float(theta)
             pose.pose.orientation.w = 1.0
             path.poses.append(pose)
-    path.poses.reverse()
+    #path.poses.reverse()
     controller_id = ""
     goal_checker_id = ""
     goal_msg = FollowPath.Goal()
